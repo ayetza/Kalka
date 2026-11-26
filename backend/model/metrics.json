@@ -1,0 +1,43 @@
+{
+  "base_model": "roberta-base",
+  "args": {
+    "model": "roberta-base",
+    "epochs": 3,
+    "bs": 64,
+    "lr": 2e-05,
+    "max_len": 128,
+    "limit": 0,
+    "out": "model_por_referencia",
+    "data": "..\\data_por_referencia"
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "accuracy": 0.9666757530325746,
+      "precision": 0.9740476025258483,
+      "recall": 0.9587459872959497,
+      "f1": 0.9663362247005369
+    },
+    {
+      "epoch": 2,
+      "accuracy": 0.9718209077279542,
+      "precision": 0.9659964917015248,
+      "recall": 0.9779386653917083,
+      "f1": 0.9719308963785086
+    },
+    {
+      "epoch": 3,
+      "accuracy": 0.9731497887419926,
+      "precision": 0.9732832251451998,
+      "recall": 0.9728843658220067,
+      "f1": 0.9730837546112857
+    }
+  ],
+  "test": {
+    "accuracy": 0.9724698121950555,
+    "precision": 0.9714285714285714,
+    "recall": 0.9734455250792263,
+    "f1": 0.9724360024016157
+  },
+  "temperature": 1.6119245290756226
+}

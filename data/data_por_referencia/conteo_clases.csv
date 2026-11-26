@@ -1,0 +1,5 @@
+archivo,total,clase_0_no_copia,clase_1_copia,pct_copia
+train.csv,264156,132379,131777,49.89
+val.csv,29348,14707,14641,49.89
+test.csv,73374,36770,36604,49.89
+TOTAL,366878,183856,183022,49.89

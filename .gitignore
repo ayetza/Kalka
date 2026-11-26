@@ -1,1 +1,8 @@
 .DS_Store
+__pycache__/
+*.pyc
+
+# Se regeneran solos
+backend/cache/
+# Modelo anterior (entrenado con la division por par); no se sube
+backend/model_division_por_par/
